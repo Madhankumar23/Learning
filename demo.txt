@@ -1,0 +1,11 @@
+This is a Main Bootcamp for FSD in 2024 B56WD.
+Events : used to perform some task like zooming,scrolling,clicking,typing.for that we need functions
+Whenever there is an event,definitely there is function
+
+//XML-HTTP:
+//It is used to interact with server via API
+//Total there are 5 Steps
+//1st step : create a XML-HTTP Object
+//2nd step: Open a request
+/3rd step: kickstart a request
+//4th step:  Once the data successfully received from the server, its status code is 200. data coming as a JSON string type.convert into Array of object

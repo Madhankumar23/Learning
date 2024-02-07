@@ -1,0 +1,3 @@
+<tags>:- <opening></closing>
+self closing tags: meta
+non self closing: head,body,title

@@ -1,3 +1,105 @@
 <tags>:- <opening></closing>
 self closing tags: meta
 non self closing: head,body,title
+
+radio Buttons Exceptional case...
+div,,section,article..
+Intro to css
+Types of css
+CSS selectors..
+ To make the radio button to select only one button...
+ we will be grouping the radio button based on the name attribute..
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+     <label for="male">Male</label>
+     <input type="radio" name="gender" id="male">
+     <label for="female">Female</label>
+     <input type="radio" name="gender" id="female">
+
+    </form>
+</body>
+</html>
+
+CSS: cascaded style sheet
+Inline css
+Internal CSS
+External CSS
+
+Inline CSS: It is applicable in the tags Itself...
+Syntax: <tagname Style = "propertyname:value">Content</tagname>
+using style Attribute:
+style represents the inline css 
+
+
+InternalCSS:It is applicable to the whole Document Thorugh selectors...
+
+Selectors: if you wanted to apply CSS properties for more than 1 element...
+we need selectors:
+
+class,id and Tag selectors...
+class selectors:
+.classname{
+
+}
+
+here class is an Attribute
+ Class selector is applicable for more than 1 elements
+ here .classname is user defined..
+
+
+ id selectors:
+ if you want to have the Unique CSS properties to the individual elements
+ #idselector{
+
+ }
+
+ Priorities:
+ If you apply class as well as the id selector as well as the inline css 
+ then inline css will have the Highest Priority
+ inline css>id>class>tag
+ inline css>internal css >external css
+div{
+        background-color: green;
+    }
+    p{
+        background-color: yellow;
+    }
+External CSS:
+Taking the CSS properties in a separate file...
+
+rel-> attribute -> relationship
+href -> Attribute -> filename
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="main">this is div</div>
+<p class="main1">this is main1</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="main">this is div</div>
+<p class="main1">this is main1</p>
+</body>
+</html>
